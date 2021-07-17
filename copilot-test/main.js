@@ -5,3 +5,11 @@ const getDate = () => {
 }
 
 console.log(getDate());
+
+//1~1000までのランダムな整数を表示する
+const getRandomNumber = () => {
+  const randomNumber = Math.floor(Math.random() * 1000 + 1);
+  return randomNumber;
+}
+
+console.log(getRandomNumber());
